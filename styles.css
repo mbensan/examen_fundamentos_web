@@ -1,3 +1,8 @@
+.container {
+    background: rgb(227,71,250);
+    background: linear-gradient(59deg, rgba(227,71,250,1) 0%, rgba(255,245,127,1) 45%, rgba(1,37,152,1) 100%);
+}
 h1 {
     color: green;
+    text-shadow: 3px 3px #333;
 }
