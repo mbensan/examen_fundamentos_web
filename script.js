@@ -38,6 +38,9 @@ function num2str(num) {
     }
     return p_decenas + ' y ' + num2str(unidades)
   }
+  else if (num == 100) {
+    return "cien"
+  }
   else {
     return 'No implementado'
   }
