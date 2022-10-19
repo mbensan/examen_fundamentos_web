@@ -14,10 +14,12 @@
     <img src="images/dino.jpg" alt="">
     <div class="row mb-4">
       <div class="col-4 p-5 bg-primary fw-bold">
-        Primera
+        <p>Ingrese un número</p>
+        <input id="num" type="number" min="0">
+        <button class="btn btn-success" onclick="transformar()">Transformar</button>
       </div>
       <div class="col-4 p-5 bg-warning">
-        Segunda
+        Número: <span id="str"></span>
       </div>
       <div class="col-4 p-5 bg-dark text-white">
         Tercera
